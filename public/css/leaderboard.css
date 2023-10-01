@@ -4,9 +4,14 @@ body {
   width: 100%;
   background-color: #effeff;
 }
-/* 293241 dark
-  3d5a80 blue
-  98c1d9 light
+
+
+/* 183D3D dark
+
+  5C8374  green
+
+  93B1A6 light
+
 */
 .editDelete {
   float: right;
@@ -18,32 +23,32 @@ body {
 }
 #form1 {
   border-radius: 10px;
-  background-color: #3d5a80;
-  box-shadow: 4px 4px 9px #293241;
+  background-color: #5C8374;
+  box-shadow: 4px 4px 9px #183D3D;
   margin: 20px 193px;
 }
 #table {
   border-radius: 10px;
-  background-color: #d2eaf7;
-  /* background-image: linear-gradient(to bottom right, #c7e9fd, #3d5a80); */
+  background-color: #CBE4DE;
+  /* background-image: linear-gradient(to bottom right, #c7e9fd, #5C8374); */
   box-shadow: 4px 4px 9px #b8b8b8;
 }
 #submitBtn {
   width: 140px;
-  background-color: #293241;
-  border-color: #293241;
+  background-color: #183D3D;
+  border-color: #183D3D;
   color: white;
 }
 .topBtn {
   background-color: white;
   border-color: white;
-  color: #293241;
+  color: #183D3D;
 }
 #navigation {
-  background-color: #233b64;
+  background-color: #183D3D;
 }
 #categoryBtn {
-  background-color: #293241;
+  background-color: #183D3D;
   width: auto;
   border-radius: 7px;
   border: none;
@@ -53,7 +58,7 @@ body {
   width: 300px;
 }
 .input-group-text {
-  background-color: #293241;
+  background-color: #183D3D;
   color: white;
   border: none;
 }
@@ -68,15 +73,15 @@ body {
 #submitBtn:hover,
 .editDelete:hover {
   background-color: #ffffff;
-  color: #293241;
-  border-color: #293241;
+  color: #183D3D;
+  border-color: #183D3D;
 }
 .topBtn:hover {
-  background-color: #3d5a80;
+  background-color: #5C8374;
   color: white;
-  border-color: #3d5a80;
+  border-color: #5C8374;
 }
 .editDelete {
-  background-color: #293241;
+  background-color: #183D3D;
   border: none;
 }

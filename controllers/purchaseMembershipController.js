@@ -2,6 +2,7 @@ const Razorpay = require("razorpay");
 const Order = require("../models/ordersModel");
 const User = require("../models/userModel");
 const userController = require("./userController");
+require("dotenv").config();
 
 exports.purchasePremium = async (req, res) => {
   try {
@@ -9,7 +10,7 @@ exports.purchasePremium = async (req, res) => {
       key_id: process.env.RAZORPAY_KEY_ID,
       key_secret: process.env.RAZORPAY_KEY_SECRET,
     });
-    const amount = 50000;
+    const amount = 5000;
     rzp.orders.create({ amount, currency: "INR" }, async (err, order) => {
       if (err) {
         throw new Error(JSON.stringify(err));

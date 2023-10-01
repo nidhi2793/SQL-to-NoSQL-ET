@@ -1,13 +1,22 @@
 html,
 body {
-  height: 100%;
-  width: 100%;
+ 
   background-color: #effeff;
 }
-/* 293241 dark
-  3d5a80 blue
+
+
+/* 183D3D dark
+
+  5C8374  green
+
+  93B1A6 light
+
+/* 183D3D dark
+5C8374 blue
   98c1d9 light
 */
+
+
 .editDelete {
   float: right;
   margin: 3px;
@@ -17,48 +26,48 @@ body {
   margin-right: 10px;
 }
 #navigation {
-  background-color: #233b64;
+  background-color: #183D3D;
 }
 #form1 {
   border-radius: 10px;
-  background-color: #3d5a80;
-  box-shadow: 4px 4px 9px #293241;
+  background-color: #5C8374;
+  box-shadow: 4px 4px 9px #183D3D;
   margin: 20px 193px;
 }
 #table {
   border-radius: 10px;
-  background-color: #d2eaf7;
-  /* background-image: linear-gradient(to bottom right, #c7e9fd, #3d5a80); */
+  background-color: #93B1A6;
+  /* background-image: linear-gradient(to bottom right, #c7e9fd, #5C8374); */
   box-shadow: 4px 4px 9px #b8b8b8;
 }
 #submitBtn {
   width: 140px;
-  background-color: #293241;
-  border-color: #293241;
+  background-color: #183D3D;
+  border-color: #183D3D;
   color: white;
 }
 .showBtn {
   width: 80px;
-  background-color: #293241;
-  border-color: #293241;
+  background-color: #183D3D;
+  border-color: #183D3D;
   color: white;
 }
 .topBtn {
   background-color: white;
   border-color: white;
-  color: #293241;
+  color: #183D3D;
 }
 #year-input {
   background-color: white;
   width: auto;
   border: 1px;
   border-radius: 7px;
-  color: #293241;
+  color: #183D3D;
   padding: 7px;
   margin: 7px -4px;
 }
 #categoryBtn {
-  background-color: #293241;
+  background-color: #183D3D;
   width: auto;
   border-radius: 7px;
   border: none;
@@ -68,7 +77,7 @@ body {
   width: 300px;
 }
 .input-group-text {
-  background-color: #293241;
+  background-color: #183D3D;
   color: white;
   border: none;
 }
@@ -84,16 +93,16 @@ body {
 .editDelete:hover,
 .showBtn:hover {
   background-color: #ffffff;
-  color: #293241;
-  border-color: #293241;
+  color: #183D3D;
+  border-color: #183D3D;
 }
 .topBtn:hover {
-  background-color: #3d5a80;
+  background-color: #5C8374;
   color: white;
-  border-color: #3d5a80;
+  border-color: #5C8374;
 }
 .editDelete {
-  background-color: #293241;
+  background-color: #183D3D;
   border: none;
 }
 
